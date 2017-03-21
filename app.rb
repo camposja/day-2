@@ -13,4 +13,9 @@ loop do
   else
     puts "Your guess is larger than the number"
   end
-end
+
+  if num_guesses == 5
+    puts "You lose"
+    break
+  end
+ end
