@@ -9,8 +9,8 @@ loop do
 
   if guesses[-2] == guesses[-1]
     puts "Are you doing Ok over there buddy?"
-  break
-    end
+    break
+  end
 
   if guesses.include? random_num
     puts "You win"
